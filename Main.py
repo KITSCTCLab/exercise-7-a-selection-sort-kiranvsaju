@@ -8,7 +8,7 @@ def selectionSort(array, size) -> List[int]:
      if array[sort]<array[point]:
        check=sort
     array[point],array[check] = array[check],array[point]
- return array
+return array
   
 
 # Do not change the following code
