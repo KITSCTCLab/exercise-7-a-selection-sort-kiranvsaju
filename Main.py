@@ -3,7 +3,7 @@ from typing import List
 def selectionSort(array, size) -> List[int]:
   # Write your code here
   for point in range (size):
-  check = point
+  check = point 
   for sort in range (point,size):
     if array[sort]<array[point]:
       array[sort],array[point] = array[point],array[sort]
