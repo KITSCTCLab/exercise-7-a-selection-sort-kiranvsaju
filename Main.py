@@ -2,11 +2,12 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
-  for point in range (size):
+  for point in range (len(array):
   check = point 
-  for sort in range (point,size):
+  for sort in range (point+1,len(array)):
     if array[sort]<array[point]:
-      array[sort],array[point] = array[point],array[sort]
+      check=sort
+   array[sort],array[point] = array[point],array[sort]
  return array
   
 
